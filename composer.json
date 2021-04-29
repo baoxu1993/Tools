@@ -2,6 +2,7 @@
   "name": "baoxu1993/tools",
   "description": "Shortcut tool!",
   "type": "library",
+  "license": "MIT",
   "authors": [
     {
       "name": "baoxu",
