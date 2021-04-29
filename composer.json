@@ -1,0 +1,35 @@
+{
+  "name": "baoxu1993/tools",
+  "description": "Shortcut tool!",
+  "type": "library",
+  "authors": [
+    {
+      "name": "baoxu",
+      "email": "itbaoxu@163.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.3",
+    "hyperf/config": "2.1.*",
+    "hyperf/cache": "2.1.*",
+    "hyperf/filesystem": "2.1.*",
+    "hyperf/guzzle": "2.1.*",
+    "hyperf/di": "dev-master",
+    "zoujingli/ip2region": "^1.0",
+    "overtrue/easy-sms": "1.1"
+  },
+  "suggest": {
+    "ext-openssl": "Required to use HTTPS.",
+    "ext-json": "Required to use JSON.",
+    "ext-pdo": "Required to use MySQL Client.",
+    "ext-pdo_mysql": "Required to use MySQL Client.",
+    "ext-redis": "Required to use Redis Client.",
+    "ext-bcmath":""
+  },
+  "autoload": {
+    "psr-4": {
+      "baoxu1993\\Tools\\": "src"
+    }
+  }
+}
